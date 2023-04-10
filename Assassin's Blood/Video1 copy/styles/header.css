@@ -1,0 +1,33 @@
+header{
+    background-color: #101010;    
+}
+
+.selected{
+    border-bottom: solid 1px #ff000042;    
+}
+
+.options-menu > ul > li > a {
+    color: #752121;
+    text-decoration: none;
+    transition: 0.5s;
+    font-size: 23px;
+}
+
+.options-menu > ul > li > a:hover{
+    color: #ff0000
+}
+
+.container-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-list > li{
+    margin-left: 30px;
+    font-weight: 500;
+}
+
+.container-list img {
+    width: 140px;
+}
