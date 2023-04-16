@@ -1,0 +1,34 @@
+.neymar, .md-chefe, .gus-lima{
+    width: 100px;
+    height: 100px;
+}
+
+.galvao{
+    width: 100px;
+    height: 95px;
+}
+
+.section-avaliacao{       
+    background-color: #101010;     
+    padding: 20px 0;
+    text-align: center;
+    font-weight: 100;
+}
+
+.section-avaliacao p {
+    color: #752121;
+    font-weight: 600;
+}
+
+.card-avaliacao{
+    width: 250px;
+}
+
+.img-avaliacao{
+    border-radius: 50%;
+}
+
+.container-avaliacao{
+    display: inline-block;    
+    margin: 10px;    
+}
