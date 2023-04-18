@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+        <link rel="stylesheet" href="./styles/header.css">
+        <link rel="stylesheet" href="./styles/default.css">
+        <link rel="stylesheet" href="./styles/footer.css">
+        <link rel="stylesheet" href="styles/contact/sectionContact.css">
+        <title>Contato | Assassin's Blood</title>
+    </head>
+    <body>
+        
+        <header>
+            <nav class="options-menu">
+
+                <!-- Responsivo -->                
+                <input type="checkbox" id="check">
+
+                <label for="check" class="checkbtn">
+                    <i class="fa fa-bars"></i>
+                </label>
+                <!-- Responsivo -->
+
+                <ul class="container-list">
+                    
+                    <li class="list-top">
+                        <a href="index.html">Home</a>
+                    </li>                           
+
+                    <li class="list-top">
+                        <a href="menu.html">Cardápio</a>
+                    </li> 
+                       
+                    <li>
+                        <a href="index.html">
+                            <img src="./image/Logo.png" alt="Logo da página">
+                        </a>
+                    </li>
+                    
+                    <li class="list-top">
+                        <a href="units.html">Unidades</a>
+                    </li>
+
+                    <li class="list-top">
+                        <a href="contact.html" class="selected">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="background-contact">
+            <div class="container-contact">
+
+                <h1>Entre em contato</h1>
+
+                <form method="post">
+
+                    <div>
+                        <input type="text" name="nome" id="nome" placeholder="Informe seu nome" class="input-informations">
+                        <input type="email" name="email" id="email" placeholder="Informe seu e-mail" class="input-informations">                        
+                    </div>
+
+                    <div>
+                        <input type="number" name="numero" id="numero" placeholder="Informe seu número" class="input-informations">
+                        <input type="number" name="idade" id="idade" placeholder="Informe sua idade" class="input-informations">                        
+                    </div>
+
+                    <p>Mensagem:</p>
+                    <textarea name="txtArea" id="txtArea" class="txtArea"></textarea>
+
+                    <br>
+
+                    <input type="submit" value="Enviar" class="input-submit">
+
+                </form>
+
+            </div>
+        </section>
+
+        <!-- Seção Footer -->
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="footer-col">
+                        <h4>Contato</h4>
+                        <p>(11) 8921-9999</p>
+                        <p>contato@blood.com</p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Horários</h4>
+
+                        <p>Segunda - Sexta</p>
+                        <p>12:00 - 20:00</p>
+                        <p>Sábado</p>
+                        <p>12:00 - 00:00</p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Informações</h4>
+                        <p>CNPJ</p>
+                        <p>14.380.201/0001-21</p>
+                        <p>CEP</p>
+                        <p>06.020.901</p>
+                    </div>
+
+                    <div class="footer-col">
+                        <h4>Redes sociais</h4>
+                        <div class="social-links">
+                            <a href="https://www.facebook.com/" target="-blank"><i class="fab fa-facebook-f"></i></a>
+                            <a href="https://twitter.com/" target="-blank"><i class="fab fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/" target="-blank"><i class="fab fa-instagram"></i></a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </footer>
+    <!-- Fim seção Footer -->
+
+    </body>
+</html>
